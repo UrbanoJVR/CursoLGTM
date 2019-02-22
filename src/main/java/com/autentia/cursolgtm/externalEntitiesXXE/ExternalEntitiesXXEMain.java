@@ -1,5 +1,12 @@
 package com.autentia.cursolgtm.externalEntitiesXXE;
 
+import com.autentia.App;
+
 public class ExternalEntitiesXXEMain {
-    //https://github.com/rgerganov/xxe-example
+
+    public static void main(String[] args) {
+        App.main(args);
+
+    }
+
 }
