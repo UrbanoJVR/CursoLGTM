@@ -2,7 +2,7 @@
 
 Este proyecto es un ejemplo para aprender buenas prácticas de programación segura.
 
-##ARCHITECTURE
+## ARQUITECTURA
 
 El proyecto ha sido construido con las siguientes tecnologías:
 
@@ -19,7 +19,7 @@ El proyecto trata diferentes vulnerabilidades con ejemplos. Cada paquete es una 
 
 Continúa leyendo para conocer cómo se organizan los paquetes y cómo añadir ejepmlos de vulnerabilidades al proyecto.
 
-##PAQUETES
+## PAQUETES
 
 Abre el proyecto con tu IDE favorito (nosotros hemos usado IntelliJ) y abre el directorio Java > com.autentia.cursolgtm.
 
@@ -38,7 +38,7 @@ vulnerabilidad y el código. Debe tratar, por lo menos, estos puntos:
     * Qué datos debe introducir el usuario, qué respuestas debe esperar o qué acciones debe ejecutar
     * Dependencias del ejepmlo para aclarar su funcionamiento
 
-##CÓMO AÑADIR UN EJEMPLO DE UNA NUEVA VULNERABILIDAD
+## CÓMO AÑADIR UN EJEMPLO DE UNA NUEVA VULNERABILIDAD
 
 Primero, si no existe, debes crear un paquete con un nombre descriptivo que contendrá todos tus archivos de código
 para tu ejemplo.
