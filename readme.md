@@ -21,7 +21,8 @@ Continúa leyendo para conocer cómo se organizan los paquetes y cómo añadir e
 
 ## PAQUETES
 
-Abre el proyecto con tu IDE favorito (nosotros hemos usado IntelliJ) y abre el directorio Java > com.autentia.cursolgtm.
+Abre el proyecto con tu IDE favorito (nosotros hemos usado IntelliJ) y abre el directorio src > main > java > com >
+autentia > cursolgtm
 
 Dentro de este directorio encontrarás los paquetes esenciales del proyecto.
 
