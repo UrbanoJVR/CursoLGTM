@@ -1,4 +1,4 @@
-package com.autentia;
+package com.autentia.cursolgtm;
 
 import com.jayway.restassured.RestAssured;
 import org.junit.Before;

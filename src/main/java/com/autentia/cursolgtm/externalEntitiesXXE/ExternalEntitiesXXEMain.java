@@ -1,6 +1,6 @@
 package com.autentia.cursolgtm.externalEntitiesXXE;
 
-import com.autentia.App;
+import com.autentia.cursolgtm.App;
 
 public class ExternalEntitiesXXEMain {
 
