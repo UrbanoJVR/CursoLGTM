@@ -1,6 +1,5 @@
 package com.autentia.cursolgtm.insecureDeserialization;
 
-import com.autentia.App;
 import com.google.gson.Gson;
 
 import java.io.*;
@@ -17,14 +16,14 @@ public class deserializationMain {
         chooseOption();
     }
 
-    private static void chooseOption(){
+    private static void chooseOption() {
         System.out.println("What do you want to do?:");
         System.out.println("1) Save car data");
         System.out.println("2) Load car data");
         System.out.println("Enter your option:");
         String userInput = new Scanner(System.in).nextLine();
         int userOption = Integer.parseInt(userInput);
-        switch (userOption){
+        switch (userOption) {
             case 1:
                 carToJson(car);
                 break;
@@ -36,7 +35,7 @@ public class deserializationMain {
         }
     }
 
-    private static void carToJson(Car car){
+    private static void carToJson(Car car) {
         try {
             Gson gson = new Gson();
             String json = gson.toJson(car);
@@ -49,8 +48,8 @@ public class deserializationMain {
         }
     }
 
-    private static void jsonToCar(){
-        try{
+    private static void jsonToCar() {
+        try {
             Gson gson = new Gson();
             BufferedReader reader = new BufferedReader(new FileReader("myCar.txt"));
             String json = reader.readLine();

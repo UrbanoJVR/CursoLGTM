@@ -1,4 +1,4 @@
-package com.autentia;
+package com.autentia.cursolgtm;
 
 import net.sf.log4jdbc.sql.jdbcapi.DataSourceSpy;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,13 +19,12 @@ public class AppConfig {
     @Bean
     @ConfigurationProperties(prefix = DataSourceProperties.PREFIX)
     DataSource realDataSource() {
-        DataSource dataSource = DataSourceBuilder
+        return DataSourceBuilder
                 .create(this.dataSourceProperties.getClassLoader())
                 .url(this.dataSourceProperties.getUrl())
                 .username(this.dataSourceProperties.getUsername())
                 .password(this.dataSourceProperties.getPassword())
                 .build();
-        return dataSource;
     }
 
     @Bean

@@ -9,8 +9,7 @@ public class Mark {
     private String studentLastName;
     private float mark;
 
-    public Mark() {
-
+    Mark() {
     }
 
     public Mark(String studentName, String studentLastName, float mark) {
@@ -23,7 +22,7 @@ public class Mark {
         return studentName;
     }
 
-    public void setStudentName(String studentName) {
+    void setStudentName(String studentName) {
         this.studentName = studentName;
     }
 
@@ -31,7 +30,7 @@ public class Mark {
         return studentLastName;
     }
 
-    public void setStudentLastName(String studentLastName) {
+    void setStudentLastName(String studentLastName) {
         this.studentLastName = studentLastName;
     }
 
@@ -39,7 +38,7 @@ public class Mark {
         return mark;
     }
 
-    public void setMark(float mark) {
+    void setMark(float mark) {
         this.mark = mark;
     }
 }
