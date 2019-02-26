@@ -83,7 +83,7 @@ public class myNewVulnerabilityMain {
 
 Cuando una persona quiera ejecutar este ejemplo, solo con ejecutar este Main levantará el contexto de Spring. Además del
 main puedes necesitar otras dependencias como el controlador de una Api. En este caso, igual que el main, debes crear
-tu appController dentro de tu propio paqete con las anotaciones respectivas (@RestController, @RequestMapping,
+tu appController dentro de tu propio paquete con las anotaciones respectivas (@RestController, @RequestMapping,
 @GetMapping, @PostMapping, etc) al inicio de tu clase.
 
 Para evitar problemas con otras vulnerabilidades debes crear cada enpoint en una dirección que no exista previamente en
