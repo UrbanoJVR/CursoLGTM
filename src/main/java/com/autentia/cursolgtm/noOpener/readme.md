@@ -15,6 +15,13 @@ Para probar esta vulnerabilidad solo debemos abrir con nuestro navegador el arch
 El archivo source.html incluye un \<a href> con etiqueta target blank que abrirá en otra pestaña el archivo target.html.
 El target contiene código malicioso que editará la pestaña padre y podremos ver cómo la primera ha sido hackeada.
 
+## CÓMO EVITARLA
+
+Muy sencillo: despues de target="_blank" (o antes) debemos añadir rel="noopener noreferrer". Con eso será suficiente.
+
+Generalmente, los CMS más usados (como Wordpress) insertan estos parámetros por defecto cuando indicas que un enlace
+se abra en una nueva pestaña.
+
 ## DEPENDENCIAS
 
 Este ejemplo no necesita dependencias externas.
