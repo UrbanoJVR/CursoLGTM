@@ -7,6 +7,8 @@ import java.util.Scanner;
 
 public class DeserializationMain {
 
+    public static String fileName = "./src/main/java/com/autentia/onboarding/vulnerabilities/insecureDeserialization/myCar.txt";
+
     private static Car car = new Car("1234ABC",
             "Opel Insignia",
             "Paco Perez Pinto",
@@ -40,7 +42,7 @@ public class DeserializationMain {
             Gson gson = new Gson();
             String json = gson.toJson(car);
             System.out.println(json);
-            BufferedWriter writer = new BufferedWriter(new FileWriter("myCar.txt"));
+            BufferedWriter writer = new BufferedWriter(new FileWriter(fileName));
             writer.write(json);
             writer.close();
         } catch (IOException e) {
@@ -51,7 +53,7 @@ public class DeserializationMain {
     private static void jsonToCar() {
         try {
             Gson gson = new Gson();
-            BufferedReader reader = new BufferedReader(new FileReader("myCar.txt"));
+            BufferedReader reader = new BufferedReader(new FileReader(fileName));
             String json = reader.readLine();
             reader.close();
             Car loadedCar = gson.fromJson(json, Car.class);

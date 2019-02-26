@@ -1,3 +1,2 @@
 .idea/
-myCar.dat
-myCar.txt
+./src/main/java/com/autentia/onboarding/vulnerabilities/insecureDeserialization/myCar.txt
