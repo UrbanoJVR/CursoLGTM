@@ -162,6 +162,6 @@ aunque no la implementes. Como mínimo, sigue los siguientes pasos:
 
 # COLABORADORES
 
-¿Has añadido una vulnerabilidad? Iserta tu nombre en esta lista:
+¿Has añadido una vulnerabilidad? Inserta tu nombre en esta lista:
 
 - 
