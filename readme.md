@@ -97,7 +97,7 @@ Al terminar tu ejemplo, cuando ya es totalmente funcional, debes documentarlo ad
 contenga los puntos citados arriba en el apartado donde se explica el readme para que todo quede bien claro y el que
 venga después pueda entender, ejecutar y aprender de tu vulnerabilidad.
 
-## EJEMPLOS QUE YA HAN SIDO IMPLEMENTADOS
+## EJEMPLOS QUE ESTÁN IMPLEMENTADOS
 
 Estos ejemplos ya están en funcionamiento. Siguen toda la normativa citada hasta ahora: cada uno contiene todo su
 código en su respectivo paquete, incluyendo un readme apropiado. Para probarlos, solo viaja hasta el paquete que te
@@ -133,9 +133,10 @@ donde se debe ubicar el ejemplo a crear.
 - <b>Concatenación insegura de comandos :</b> commandLineConcatenation
 - <b>Contraseñas inseguras no controladas :</b> passwordControl
 - <b>Cross site :</b> crossite
-- <b>Injección de javascript :</b> javascriptInjection
+- <b>Inyección de javascript :</b> javascriptInjection
+- <b>Inyección de SQL :</b> sqlInjection
+- <b>Manipulación inapropiada de directorio de archivo :</b> pathFileManipulation
 - <b>Subida de archivos falsos no controlada :</b> fakeFileUpload
-
 
 ## NUEVAS IDEAS
 

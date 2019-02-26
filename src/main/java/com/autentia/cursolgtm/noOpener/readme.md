@@ -1,4 +1,4 @@
-# VULNERABILIDAD AL ABRIR NUEVA PESTAÑA
+# VULNERABILIDAD AL ABRIR ENLACE EN UNA NUEVA PESTAÑA
 
 Cuando, en un sitio web HTML, queremos que un enlace \<a href> se abra en una nueva pestaña se utiliza la opción
 <target = "_blank">. Esta vulnerabilidad se da cuando el usuario, aemás, no añade las opciones rel = "noopener noreferrer".
@@ -24,5 +24,5 @@ se abra en una nueva pestaña.
 
 ## DEPENDENCIAS
 
-Este ejemplo no necesita dependencias externas.
+Este ejemplo no necesita dependencias externas, ni siquiera ejecutar Spring.
 
