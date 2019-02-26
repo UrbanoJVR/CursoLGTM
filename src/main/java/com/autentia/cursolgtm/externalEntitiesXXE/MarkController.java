@@ -1,6 +1,7 @@
 package com.autentia.cursolgtm.externalEntitiesXXE;
 
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -21,9 +22,9 @@ public class MarkController {
 
     private Mark mark;
 
-    @RequestMapping(method = RequestMethod.GET, produces = {"application/xml"})
-    public Mark getMarks() {
-        return mark;
+    @RequestMapping(value = "/student-last-name" , method = RequestMethod.GET, produces = MediaType.TEXT_XML_VALUE)
+    public String getMarks() {
+        return mark.getStudentLastName();
     }
 
     @RequestMapping(method = RequestMethod.POST, consumes = {"application/xml", "text/xml"})
@@ -31,12 +32,12 @@ public class MarkController {
     public void addMark(@RequestBody String xmlMark) {
         try {
             this.mark = deserializeXMLMark(xmlMark);
-        } catch (JAXBException | ParserConfigurationException | SAXException | IOException e) {
+        } catch (ParserConfigurationException | SAXException | IOException e) {
             e.printStackTrace();
         }
     }
 
-    private Mark deserializeXMLMark(String xmlMark) throws JAXBException, SAXException, ParserConfigurationException, IOException {
+    private Mark deserializeXMLMark(String xmlMark) throws SAXException, ParserConfigurationException, IOException {
         DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
         Document doc = dBuilder.parse(new StringBufferInputStream(xmlMark));

