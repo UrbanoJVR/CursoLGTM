@@ -1,4 +1,4 @@
-package com.autentia.cursolgtm;
+package com.autentia.onboarding.vulnerabilities;
 
 import net.sf.log4jdbc.sql.jdbcapi.DataSourceSpy;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.autentia.cursolgtm.externalEntitiesXXE;
+package com.autentia.onboarding.vulnerabilities.externalEntitiesXXE;
 
 import javax.xml.bind.annotation.XmlRootElement;
 

@@ -2,7 +2,7 @@
 
 Este ejemplo trata la vulnerabilidad de entidades externas al deserializar un documento XML cuando se envia una 
 petición POST con un XML malicioso y no se trata debidamente. Este fichero hará que en el atributo studentLastName del 
-objeto añadido se añada el contenido del fichero /etc/passwd, pudiendo recuperarlo al hacer una petición GET de dicho elemento.
+objeto añadido se añada el contenido del fichero /etc/passwd DEL SERVIDOR, pudiendo recuperarlo al hacer una petición GET de dicho elemento.
 
 ## CÓMO EJECUTAR
 

@@ -1,4 +1,4 @@
-package com.autentia.cursolgtm.insecureDeserialization;
+package com.autentia.onboarding.vulnerabilities.insecureDeserialization;
 
 import java.io.Serializable;
 

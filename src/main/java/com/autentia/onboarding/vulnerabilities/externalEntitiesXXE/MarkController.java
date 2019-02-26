@@ -1,4 +1,4 @@
-package com.autentia.cursolgtm.externalEntitiesXXE;
+package com.autentia.onboarding.vulnerabilities.externalEntitiesXXE;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

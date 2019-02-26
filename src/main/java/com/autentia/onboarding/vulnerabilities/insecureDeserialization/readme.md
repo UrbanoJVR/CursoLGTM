@@ -18,8 +18,9 @@ Primero debemos seleccionar la opción de guardar para crear el archivo. Despué
 elegimos la opción 2) cargar el archivo.
 
 Nos mostrará una comparación entre el objeto que se guardó (que está hardcodeado) y el objeto leído. Veremos que es lo
-mismo. Ahora, modificamos cualquier parámetro del archivo "myCar.txt" generado. Tras esto, volvemos a ejecutar la opción
-2 y veremos que esta vez el archivo deserializado ha sido modificado ya que hemos editado el archvo.
+mismo. Ahora, modificamos cualquier parámetro del archivo "myCar.txt" generado en la raíz del proyecto. Tras esto,
+volvemos a ejecutar la opción 2 y veremos que esta vez el archivo deserializado ha sido modificado ya que hemos editado
+el archvo.
 
 ## CÓMO EVITARLA
 

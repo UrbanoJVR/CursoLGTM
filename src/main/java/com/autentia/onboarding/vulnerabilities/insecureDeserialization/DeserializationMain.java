@@ -1,11 +1,11 @@
-package com.autentia.cursolgtm.insecureDeserialization;
+package com.autentia.onboarding.vulnerabilities.insecureDeserialization;
 
 import com.google.gson.Gson;
 
 import java.io.*;
 import java.util.Scanner;
 
-public class deserializationMain {
+public class DeserializationMain {
 
     private static Car car = new Car("1234ABC",
             "Opel Insignia",

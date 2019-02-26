@@ -24,7 +24,7 @@ Continúa leyendo para conocer cómo se organizan los paquetes y cómo añadir e
 ## PAQUETES
 
 Abre el proyecto con tu IDE favorito (nosotros hemos usado IntelliJ) y abre el directorio src > main > java > com >
-autentia > cursolgtm
+autentia > onboarding > vulnerabilities.
 
 Dentro de este directorio encontrarás los paquetes esenciales del proyecto.
 
@@ -107,7 +107,7 @@ Es importante que cuando se inserte un nuevo ejemplo se añada a esta lista sigu
 
 A continuación se indica qué paquetes contienen ya un ejempo en funcionamiento. Se indica el nombre
 de la vulnerabilidad (en negrita) y a continuación el paquete en el que está contenido todo lo necesario sobre ella.
-Todos los paquetes citados están en com.autentia.cursolgtm:
+Todos los paquetes citados están en com.autentia.onboarding.vulnerabilities:
 
 - <b>Deserialización insegura de objetos :</b> insecureDeserialization
 - <b>Entidades Externas (XXE) :</b> externalEntitiesXXE
@@ -143,7 +143,7 @@ donde se debe ubicar el ejemplo a crear.
 ¿Conoces una vulnerabilidad que todavía no está en la lista de vulnerabilidades no implementadas? Puedes añadirla,
 aunque no la implementes. Como mínimo, sigue los siguientes pasos:
 
- 1) Crea el paquete con un nombre apropiado dentro de com.autentia.cursolgtm
+ 1) Crea el paquete con un nombre apropiado dentro de com.autentia.onboarding.vulnerabilities
  2) Dentro de ese paquete inserta un readme lo más explicado posible que contenga la explicación de la vunlerabilidad
  y fuentes externas para su comprensión, así como recomendaciones para el ejemplo que se debe implementar
  3) Inserta en la lista anterior de "<i>ejemplos que no están implementados</i>" el nombre de tu vulnerabilidad y el
